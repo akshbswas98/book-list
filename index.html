@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/eeb68990ce.js" crossorigin="anonymous"></script>
+    <title>Book-list
+    </title>
+</head>
+
+<body>
+    <div class="heading">
+        <i class="fas fa-book-open"></i>
+        <h1>
+            My <span class="maintitle">Book </span>List
+        </h1>
+    </div>
+    <div class="wrapper">
+      
+    <form id="book-form">
+        <label for="title">Title</label><br>
+        <input type="text" id="title"><br>
+        <label for="author">Author</label><br>
+        <input type="text" id="author"><br>
+        <label for="isbn">ISBN#</label><br>
+        <input type="text" id="isbn"><br>
+
+        <input id="submit"type="submit" value="Add book">
+
+
+    </form>
+</div id="tabular">
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>ISBN#</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody id="book-list">
+    
+        </tbody>
+    </table>
+
+
+
+
+    <script src="./test.js"></script>
+</body>
+
+</html>

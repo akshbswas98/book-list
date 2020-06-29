@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: black;
+    color: white; */
+    font-family: 'Pangolin', cursive;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    text-transform: uppercase;
+  
+    margin-bottom: 2rem;;
+}
+
+i{
+    font-size: 2.2rem;
+    padding-right: 0.9rem;
+    padding-top: 0.2rem ;
+    color: #3333ff;
+}
+.maintitle{
+    color: #3333ff;
+}
+.wrapper{
+
+    width: 80vw;
+    margin-left : 10vw;
+
+}
+.delete{
+    background-color: red;
+    text-decoration: none;
+    color: black;
+   font-size: large;
+   padding: 0.4rem;
+}
+#submit{
+    margin-top: 1rem;
+    background-color: turquoise;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.4rem;
+}
+input{
+    width: 100%;
+    padding: 0.7rem;
+    border-radius: 5px;
+    border: 1px solid turquoise;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.0rem;
+}
+input:focus{
+    border: 2px solid turquoise;
+    outline: none;
+}
+label{
+font-size: 1.5rem;
+    
+}
+table{
+    background-color: turquoise;
+    padding: 1rem;
+    width: 80vw;
+    margin-left : 10vw;
+    text-align: center;
+    table-layout:fixed; 
+    width:310px;
+
+}
+th{
+    background-color: black;
+    color: blanchedalmond;
+}
+ td {
+    border: 1px solid black;
+    padding: 0.7rem;
+    
+    text-transform: uppercase;
+
+    word-wrap:break-word;
+
+ }
+#book-list{
+ background-color: lightgrey;
+
+}
+.error{
+    padding: 10px;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 10px;
+}
